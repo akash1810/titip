@@ -1,4 +1,4 @@
-﻿# Fork of [Titip (Pure CSS tooltip)](http://quantumui.org/appdoc/documents/home/titip) with Guardian-specific customizations
+# Fork of [Titip (Pure CSS tooltip)](http://quantumui.org/appdoc/documents/home/titip) with Guardian-specific customizations
 
 
 ## Making changes
