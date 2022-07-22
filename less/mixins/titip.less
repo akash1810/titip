@@ -1,9 +1,9 @@
 ﻿.titip-skin(@color; @bg-color; @border-color) {
-    &[class*="titip"][data-title]:before,
+    &[data-title][class*="titip"]:before,
     > .titip-content:before {
         border-color:@bg-color;
     }
-    &[class*="titip"][data-title]:after,
+    &[data-title][class*="titip"]:after,
     > .titip-content {
         background-color: @bg-color;
         color: @color;
