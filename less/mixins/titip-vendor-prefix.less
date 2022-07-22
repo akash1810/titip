@@ -25,14 +25,3 @@
        -o-transform: translateY(@y);
           transform: translateY(@y);
 }
-.box-shadow(@shadow,@shadow2:X, @shadow3:X, @shadow4:X,@shadow5:X) {
-  @shadow-prop: ~`"@{arguments}".replace(/[\[\]]|\,\sX/g, '')`;
-  -webkit-box-shadow: @shadow-prop; // iOS <4.3 & Android <4.1
-          box-shadow: @shadow-prop;
-}
-.transition(@transition, @transition2:X, @transition3:X) {
-    @transition-prop: ~`"@{arguments}".replace(/[\[\]]|\,\sX/g, '')`;
-  -webkit-transition: @transition-prop;
-       -o-transition: @transition-prop;
-          transition: @transition-prop;
-}
